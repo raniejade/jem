@@ -1,0 +1,28 @@
+{
+  "name": "jem",
+  "version": "0.1.0",
+  "description": "Java Version Manager",
+  "main": "jem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ranie Jade Ramiso <raniejaderamiso@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "dependencies": {
+    "grunt": "~0.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raniejade/jem.git"
+  },
+  "keywords": [
+    "java"
+  ],
+  "bugs": {
+    "url": "https://github.com/raniejade/jem/issues"
+  },
+  "homepage": "https://github.com/raniejade/jem"
+}
