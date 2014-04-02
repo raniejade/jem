@@ -4,7 +4,12 @@
   "description": "Java Version Manager",
   "homepage": "https://github.com/raniejade/jem",
   "author": "Ranie Jade Ramiso <raniejaderamiso@gmail.com> (raniejaderamiso.com)",
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/raniejade/jem/blob/master/LICENSE"
+    }
+  ],
   "devDependencies": {
     "grunt": "~0.4.4",
     "mocha": "~1.18.2",
