@@ -32,6 +32,6 @@
     "url": "https://github.com/raniejade/jem/issues"
   },
   "bin": {
-    "jem": "modules/jem.js"
+    "jem": "lib/jem.js"
   }
 }
