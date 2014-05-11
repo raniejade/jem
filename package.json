@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "path-extra": "~0.1.1",
-    "winston": "~0.7.3"
+    "async": "~0.8.0"
   },
   "repository": {
     "type": "git",
