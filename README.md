@@ -1,6 +1,8 @@
 # jem - Java Environment Manager
 Manage multiple versions of java (jdk/jre). Don't expect this to run on windows!
 
+[![Build Status](https://travis-ci.org/raniejade/jem.svg?branch=master)](https://travis-ci.org/raniejade/jem)
+
 ## Installation
 ```
 npm install -g jem
