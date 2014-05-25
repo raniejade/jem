@@ -1,5 +1,5 @@
 # jem - Java Environment Manager
-Manage multiple versions of java (jdk/jre).
+Manage multiple versions of java (jdk/jre). Don't expect this to run on windows!
 
 ## Installation
 ```
@@ -27,16 +27,17 @@ jem list
 jem set <name>
 ```
 
+### Running a command
+```
+jem exec <command>
+```
+This will use the current candidate to execute the command.
+
 ### Setting up
 Add this to your *.bashrc* file (or something equivalent).
 
 ```
-export JAVA_HOME=`jem java-home`
-export PATH="$PATH:$JAVA_HOME/bin"
+source ~/.jem/source
 ```
-
 Now you can run any (common) java commands. The commands you can run depends on the type (jdk/jre) of the currently
-configured java. See next section for implementation details.
-
-## Under the hood
-**UNDER CONSTRUCTION**
+configured java.
