@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>jem by raniejade</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/raniejade/jem">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/raniejade/jem/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/raniejade/jem/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>jem</h1>
+          <p>Java Environment Manager</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/raniejade">raniejade</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a name="jem---java-environment-manager" class="anchor" href="#jem---java-environment-manager"><span class="octicon octicon-link"></span></a>jem - Java Environment Manager</h1>
+
+<p>Manage multiple versions of java (jdk/jre). Don't expect this to run on windows!</p>
+
+<p><a href="https://travis-ci.org/raniejade/jem"><img src="https://travis-ci.org/raniejade/jem.svg?branch=master" alt="Build Status"></a></p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<pre><code>npm install -g jem
+</code></pre>
+
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<h3>
+<a name="install" class="anchor" href="#install"><span class="octicon octicon-link"></span></a>Install</h3>
+
+<pre><code>jem install &lt;name&gt; &lt;absolute/path/to/jdk/or/jre&gt;
+</code></pre>
+
+<h3>
+<a name="uninstall" class="anchor" href="#uninstall"><span class="octicon octicon-link"></span></a>Uninstall</h3>
+
+<pre><code>jem uninstall &lt;name&gt;
+</code></pre>
+
+<h3>
+<a name="list-installed" class="anchor" href="#list-installed"><span class="octicon octicon-link"></span></a>List installed</h3>
+
+<pre><code>jem list
+</code></pre>
+
+<h3>
+<a name="switching-jdkjre" class="anchor" href="#switching-jdkjre"><span class="octicon octicon-link"></span></a>Switching jdk/jre</h3>
+
+<pre><code>jem set &lt;name&gt;
+</code></pre>
+
+<h3>
+<a name="running-a-command" class="anchor" href="#running-a-command"><span class="octicon octicon-link"></span></a>Running a command</h3>
+
+<pre><code>jem exec &lt;command&gt;
+</code></pre>
+
+<p>This will use the current candidate to execute the command.</p>
+
+<h3>
+<a name="setting-up" class="anchor" href="#setting-up"><span class="octicon octicon-link"></span></a>Setting up</h3>
+
+<p>Add this to your <em>.bashrc</em> file (or something equivalent).</p>
+
+<pre><code>source ~/.jem/source
+</code></pre>
+
+<p>Now you can run any (common) java commands. The commands you can run depends on the type (jdk/jre) of the currently
+configured java.</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
